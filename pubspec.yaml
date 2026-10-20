@@ -1,0 +1,31 @@
+name: qashtota_pos
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.3
+  path: ^1.9.0
+  intl: ^0.20.2
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  file_picker: ^10.1.9
+  path_provider: ^2.1.5
+  pdf:
+  printing:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/NotoNaskhArabic-Regular.ttf
